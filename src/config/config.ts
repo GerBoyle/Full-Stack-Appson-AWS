@@ -1,6 +1,6 @@
 export const config = {
   "dev": {
-    "username": "udagramboyledev",
+    "username": process.env.POSTGRESS_USERNAME,
     "password": "udagramboyledev",
     "database": "udagramboyledev",
     "host": "udagramboyledev.c2vgbioeyplt.eu-west-1.rds.amazonaws.com",
