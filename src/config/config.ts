@@ -5,7 +5,7 @@ export const config = {
     "database": process.env.POSTGREESS_DATABASE,
     "host": process.env.POSTGRESS_HOST,
     "dialect": "postgres",
-    "aws_region": "eu-west-1a",
+    "aws_region": "eu-west-1",
     "aws_profile": "default",
     "aws_media_bucket": process.env.POSTGRESS_BUCKET
   },
