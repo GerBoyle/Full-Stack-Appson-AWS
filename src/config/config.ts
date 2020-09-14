@@ -4,7 +4,7 @@ export const config = {
     "password": process.env.POSTGRESS_PASSWORD,
     "database": process.env.POSTGREESS_DATABASE,
     "host": process.env.POSTGRESS_HOST,
-    "dialect": process.env.AWS_DIALECT,
+    "dialect": "postgres",
     "aws_region": process.env.AWS_REGION,
     "aws_profile": process.env.AWS_PROFILE,
     "aws_media_bucket": process.env.POSTGRESS_BUCKET
@@ -12,8 +12,8 @@ export const config = {
   "prod": {
     "username": "",
     "password": "",
-    "database": "",
+    "database": "udagram_prod",
     "host": "",
-    "dialect": ""
+    "dialect": "postgres"
   }
 }
