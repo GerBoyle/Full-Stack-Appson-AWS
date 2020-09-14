@@ -11,7 +11,7 @@ import * as EmailValidator from 'email-validator';
 const router: Router = Router();
 
 async function generatePassword(plainTextPassword: string): Promise<string> {
-    //Bcryptto generate Salted Hashed Passwords
+    //Test for Bcryptto generate Salted Hashed Passwords
     const rounds =10;
     const salt = await bcrypt.genSalt(rounds);
     const hash = await bcrypt.hash(plainTextPassword, salt);
